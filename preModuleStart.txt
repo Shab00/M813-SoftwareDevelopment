@@ -1,0 +1,141 @@
+# M813 Pre-Module Preparation Notes
+
+## 1. Module Orientation
+
+- **Length:** 6 months (~25 weeks, 300 hours)
+- **Blocks:**
+  - **Block 1 (Weeks 1–6):** Requirements & early SDLC
+  - **Block 2 (Weeks 7–14):** Design, code, patterns
+  - **Block 3 (Weeks 15–20):** Architectures, integration
+  - **Block 4 (Weeks 21–24):** EMA preparation
+
+- **Assessment:**
+  - 3 TMAs (block-based coursework)
+  - 1 EMA (End-of-Module Assessment, no exam, home completed)
+  - **Pass:** ≥50% in both TMA aggregate and EMA; all TMAs must be submitted
+
+- **Outcomes (summary):**
+  - Critical, current knowledge of software development
+  - Apply/critique object-oriented analysis/design, SDLC, testing, config. management
+  - Competently document, evaluate, and reflect for a specialist/academic audience
+  - Apply professional software engineering skills/tools
+
+---
+
+## 2. Immediate Preparation Steps
+
+### A. Technical Setup
+
+- Install **Visual Paradigm (Community)** – for UML modelling  
+  [https://www.visual-paradigm.com/download/](https://www.visual-paradigm.com/download/)
+- Install **VS Code** as Java IDE  
+  [https://code.visualstudio.com](https://code.visualstudio.com)
+  - Set up JDK 17+ and **Java Extension Pack**
+- (Optionally) Install **BlueJ** as alternate Java IDE
+- Test access to OU systems: M813 site, Library, TMA submission
+- Download **Head First Design Patterns** (O’Reilly)
+  - Skim contents, intro, and 'Design Principles' summary
+
+### B. Academic Skills Refresh
+
+- Set up your digital notes system (OneNote/Notion/folders per Block)
+- Practice concise, referenced academic writing—**synthesis > summary**
+- Trial OU Library search: "software design patterns", "software architectures"
+- Prepare your forum intro (background, goals, interests)
+
+---
+
+## 3. Subject Knowledge Primer
+
+**Review Ahead of Time:**
+
+- **UML basics**: use case, class, sequence, activity diagrams  
+  *Tip: Try drawing simple diagrams in Visual Paradigm*
+- **Java fundamentals**: OOP principles (encapsulation, inheritance, polymorphism, composition), interfaces vs abstract classes, basic syntax, exception handling
+- **Software lifecycle**: requirements, analysis, design, implementation, testing, maintenance
+- **Design patterns**: singleton, observer, factory, strategy, composite, MVC  
+  *Review format: context, problem, solution, consequences (see "Head First" intro)*
+- **Requirements engineering**: stakeholders, functional/non-functional requirements, validation/verification
+- **System integration/architecture**: components/services, layering, coupling/cohesion
+- **Configuration management**: basics of version control (Git)
+- **Academic reflection**: evidence-based critical writing, structured communication
+
+---
+
+## 4. Distinction-Level Study & Assignment Habits
+
+- **Link theory to practice** (always cite readings when discussing technical choices)
+- **Critical evaluation**: compare/contrast approaches, justify design/tech choices
+- **Synthesis**: connect module material, readings, and own experience (not just summarise)
+- **Reflective practice**: maintain a log of your learning, challenges, useful application
+
+---
+
+## 5. Pre-Module Action Plan
+
+### Week -3 (Now)
+- Install/test Visual Paradigm and VS Code
+- Download/skim Head First Design Patterns (preface, intro, summary tables)
+- Skim OU study skills resources (report writing, referencing)
+- Draft your forum intro
+- Familiarise with M813 website & study planner
+
+### Weeks -2 to -1
+- Refresh UML & Java basics (draw, code, review concepts)
+- Practice a trivial workflow: requirements → UML → Java code (e.g., ATM, library system)
+- Set up notes/calendar for study/assignment deadlines
+
+---
+
+## 6. Quick Reference: Core UML Diagrams
+
+| Diagram    | Purpose                                 | Tool            |
+|------------|-----------------------------------------|-----------------|
+| Use Case   | High-level system goals, actors         | Visual Paradigm |
+| Class      | Structure: classes/attributes/relations | Visual Paradigm |
+| Sequence   | Object interactions over time           | Visual Paradigm |
+| Activity   | Workflows, logic, control flow          | Visual Paradigm |
+
+---
+
+## 7. "Head First Design Patterns" Skim-Read Guide
+
+- Focus on core principles:
+  - "Design to interface, not implementation"
+  - "Favor composition"
+  - "Encapsulate what varies"
+- For each pattern, know:
+  - Applicability (when to use)
+  - Structure (diagrams)
+  - Advantages/disadvantages
+
+---
+
+## 8. Example: Week 1 Starter Notes
+
+**What is software development?**  
+- SE = structured, managed, iterative, stakeholder-focused process
+- Early lifecycle: requirements capture/analysis is foundational
+- Stakeholder analysis: list stakeholders, identify needs
+
+---
+
+## 9. Final Checklist
+
+- [ ] Visual Paradigm, VS Code installed/tested
+- [ ] OU Library & O’Reilly platform access
+- [ ] Head First Design Patterns downloaded & skimmed
+- [ ] Forum intro drafted
+- [ ] Calendar mapped for deadlines
+- [ ] Note structure set up
+- [ ] OU study skills guides skimmed
+
+---
+
+## Optional Head Start
+
+- Read ch.1 of "Head First Design Patterns"
+- Draw a basic UML use case + class diagram for a simple system
+- Write a reflective note: "My main SE strengths, and goals for M813"
+
+---
