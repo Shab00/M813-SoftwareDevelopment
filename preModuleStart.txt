@@ -1,93 +1,120 @@
-# M813 Pre-Module Preparation Notes
+# M813 Pre-Module Preparation Notes (Updated with Tutorial Insights)
 
 ## 1. Module Orientation
 
-- **Length:** 6 months (~25 weeks, 300 hours)
+- **Length:** 6 months (~25 weeks, 300 hours study time)
 - **Blocks:**
-  - **Block 1 (Weeks 1–6):** Requirements & early SDLC
-  - **Block 2 (Weeks 7–14):** Design, code, patterns
+  - **Block 1 (Weeks 1–6):** Requirements & early SDLC (software development life cycle)
+  - **Block 2 (Weeks 7–14):** Design, coding, patterns
   - **Block 3 (Weeks 15–20):** Architectures, integration
-  - **Block 4 (Weeks 21–24):** EMA preparation
+  - **Block 4 (Weeks 21–24):** EMA preparation and submission
 
 - **Assessment:**
-  - 3 TMAs (block-based coursework)
-  - 1 EMA (End-of-Module Assessment, no exam, home completed)
-  - **Pass:** ≥50% in both TMA aggregate and EMA; all TMAs must be submitted
+  - **3 TMAs** (tutor-marked assignments, one per main block, **all TMAs count**)
+  - **1 EMA** (End-of-Module Assessment, no final exam, submitted online)
+  - **Pass mark:** ≥50% in weighted TMA average **and** 50% in EMA; **all TMAs must be submitted** (no drop scores).
 
-- **Outcomes (summary):**
-  - Critical, current knowledge of software development
-  - Apply/critique object-oriented analysis/design, SDLC, testing, config. management
-  - Competently document, evaluate, and reflect for a specialist/academic audience
-  - Apply professional software engineering skills/tools
+- **Learning Outcomes:**
+  - Critically apply and evaluate current concepts, methods, and issues across the software development lifecycle.
+  - Practically use UML and Java to model and implement (at prototype level) solutions to realistic organisational or enterprise problems.
+  - Research, synthesise, and critically analyse cutting-edge literature in software development.
+  - Communicate, reflect, and document findings clearly for an informed, academic or professional audience.
+  - Develop research skills and the ability to track “leading edge” developments.
 
 ---
 
-## 2. Immediate Preparation Steps
+## 2. How You Will Study
+
+- **Weekly:** Use the study planner for guided readings, practical work, and deadlines.
+- **Self-directed research:** Look up unfamiliar topics in the OU Library and peer-reviewed sources.
+- **Activities:** Engage in practicals (UML, coding in Java), applied to a chosen (ideally familiar) organisation, but *imaginary organisations are acceptable* (e.g., library systems).
+- **Forum participation:** Introduce yourself, join module and “Tracking the Leading Edge” forums, and use specialist forums (private TMA/EMA discussion with your tutor).
+- **Tutor contact:** Use your tutor for advice, TMA/EMA topic and case study support, and assessment guidance.
+
+---
+
+## 3. Immediate Preparation Steps
 
 ### A. Technical Setup
 
-- Install **Visual Paradigm (Community)** – for UML modelling  
+- Install **Visual Paradigm (Community)** for UML diagrams:  
   [https://www.visual-paradigm.com/download/](https://www.visual-paradigm.com/download/)
-- Install **VS Code** as Java IDE  
+  - *No specific version required—OU version is recommended.*
+- Install **Visual Studio Code** (or BlueJ) as your Java IDE:  
   [https://code.visualstudio.com](https://code.visualstudio.com)
-  - Set up JDK 17+ and **Java Extension Pack**
-- (Optionally) Install **BlueJ** as alternate Java IDE
-- Test access to OU systems: M813 site, Library, TMA submission
-- Download **Head First Design Patterns** (O’Reilly)
-  - Skim contents, intro, and 'Design Principles' summary
+  - Ensure **JDK 17+** is installed with the “Java Extension Pack.”
+- **Test access to:** OU M813 website, forums, online library, TMA/EMA submission system.
+- Download **Head First Design Patterns** (O’Reilly platform).
+  - Skim contents, intro, and design principles summary.
 
-### B. Academic Skills Refresh
+### B. Academic & Study Skills
 
-- Set up your digital notes system (OneNote/Notion/folders per Block)
-- Practice concise, referenced academic writing—**synthesis > summary**
-- Trial OU Library search: "software design patterns", "software architectures"
-- Prepare your forum intro (background, goals, interests)
-
----
-
-## 3. Subject Knowledge Primer
-
-**Review Ahead of Time:**
-
-- **UML basics**: use case, class, sequence, activity diagrams  
-  *Tip: Try drawing simple diagrams in Visual Paradigm*
-- **Java fundamentals**: OOP principles (encapsulation, inheritance, polymorphism, composition), interfaces vs abstract classes, basic syntax, exception handling
-- **Software lifecycle**: requirements, analysis, design, implementation, testing, maintenance
-- **Design patterns**: singleton, observer, factory, strategy, composite, MVC  
-  *Review format: context, problem, solution, consequences (see "Head First" intro)*
-- **Requirements engineering**: stakeholders, functional/non-functional requirements, validation/verification
-- **System integration/architecture**: components/services, layering, coupling/cohesion
-- **Configuration management**: basics of version control (Git)
-- **Academic reflection**: evidence-based critical writing, structured communication
+- Set up your notes system (e.g., OneNote, Notion, or folders by Block/Topic).
+- Brush up on academic writing (critical, referenced, synthesis not summary).
+- Practice using the OU Library to find and reference peer-reviewed articles.
+- Prepare your forum introduction (background, interests, SE goals).
+- Download and skim OU study skills resources (report writing, referencing, time management).
 
 ---
 
-## 4. Distinction-Level Study & Assignment Habits
+## 4. Subject Knowledge Primer
 
-- **Link theory to practice** (always cite readings when discussing technical choices)
-- **Critical evaluation**: compare/contrast approaches, justify design/tech choices
-- **Synthesis**: connect module material, readings, and own experience (not just summarise)
-- **Reflective practice**: maintain a log of your learning, challenges, useful application
+- **UML essentials:** Practice drawing use case, class, sequence, and activity diagrams in Visual Paradigm.
+- **Java:** Be ready with OOP fundamentals—encapsulation, inheritance, polymorphism, interfaces vs abstract classes, exception handling.
+- **Lifecycle:** Requirements gathering, analysis, design, implementation, testing, maintenance.
+- **Design patterns:** Singleton, Observer, Factory, Strategy, Composite, MVC (see “Head First Design Patterns”).
+- **Requirements engineering:** Stakeholder analysis, functional vs non-functional requirements, validation/verification.
+- **Systems integration/architecture:** Components, services, layering, coupling/cohesion, enterprise application integration.
+- **Configuration management:** Git/version control basics (concepts).
+- **Academic practice:** Evidence-based, well-structured, clearly referenced written work.
 
 ---
 
-## 5. Pre-Module Action Plan
+## 5. Distinction-Level Study & Assignment Habits
+
+- **Apply theory to practice:** Always support technical choices with references (module readings or peer-reviewed sources).
+- **Critical evaluation:** Justify and compare methods (why this UML diagram, this pattern, this architecture?).
+- **Synthesize, don’t summarize:** Connect concepts from readings, module, and your own experience.
+- **Reflective log:** Regularly write short reflections on progress, choices, challenges, and how you’ll improve in future.
+- **Use forums for “tracking the leading edge”:** Share recent advances or case studies you discover.
+
+---
+
+## 6. Practical & Assessment Insights from Tutorial
+
+- **Choice of Organisation/Project:**  
+  - Ideally select an organisation you know (current/past), or invent a realistic one (e.g. library, club, charity).  
+  - Focus on *one particular aspect* (not a complete system)—show design/requirements/coding for a single “feature” or “problem area.”
+- **Java is strongly recommended:**  
+  - All module examples and test systems use Java. Non-Java code is possible but places you at a disadvantage and must have tutor agreement.
+- **Assessment strategy:**  
+  - TMAs: Part 1 (practical—80%), Part 2 (essay/critical evaluation—20%). TMA 3 may have a third, “leading edge” research component.
+  - EMA: Research essay on a self-chosen topic, synthesising three recent, authoritative peer-reviewed articles. Topic guidance is provided near EMA time.
+  - You may re-use an organisation/problem from previous OU postgrad modules (e.g., M816, M811).
+- **Support & forums:**  
+  - Tutor is your primary contact; use private forum for TMA/EMA advice and general discussion forum for module-wide questions.
+  - Occasional drop-in Q&A sessions (not formal tutorials) are held for general TMA/EMA/assignment questions.
+  - All key slides and recordings for tutorials will be posted on the forum.
+
+---
+
+## 7. Pre-Module Action Plan
 
 ### Week -3 (Now)
-- Install/test Visual Paradigm and VS Code
-- Download/skim Head First Design Patterns (preface, intro, summary tables)
-- Skim OU study skills resources (report writing, referencing)
-- Draft your forum intro
-- Familiarise with M813 website & study planner
+- Install/test Visual Paradigm & VS Code (+ Java setup)
+- Download or open Head First Design Patterns; read preface/intro/principles
+- Skim OU study skills resources
+- Prepare and post your forum intro
+- Familiarise with the M813 website/study planner
 
 ### Weeks -2 to -1
-- Refresh UML & Java basics (draw, code, review concepts)
-- Practice a trivial workflow: requirements → UML → Java code (e.g., ATM, library system)
-- Set up notes/calendar for study/assignment deadlines
+- Refresh basic UML (draw sample use case/class diagram) & Java (HelloWorld, OOP basics)
+- Try OU Library search for “enterprise architecture,” “design patterns,” or “requirements engineering”
+- Set up notes/calendar for study, block, assignment deadlines, and “leading edge” discoveries log
 
 ---
 
-## 6. Quick Reference: Core UML Diagrams
+## 8. Quick Reference: Core UML Diagrams
 
 | Diagram    | Purpose                                 | Tool            |
 |------------|-----------------------------------------|-----------------|
@@ -98,7 +125,7 @@
 
 ---
 
-## 7. "Head First Design Patterns" Skim-Read Guide
+## 9. "Head First Design Patterns" Skim-Read Guide
 
 - Focus on core principles:
   - "Design to interface, not implementation"
@@ -111,23 +138,24 @@
 
 ---
 
-## 8. Example: Week 1 Starter Notes
+## 10. Example: Week 1 Starter Notes
 
 **What is software development?**  
-- SE = structured, managed, iterative, stakeholder-focused process
-- Early lifecycle: requirements capture/analysis is foundational
-- Stakeholder analysis: list stakeholders, identify needs
+- SE = structured, managed, iterative, stakeholder-focused process  
+- Early lifecycle: requirements capture/analysis is foundational  
+- Stakeholder analysis: list stakeholders, identify needs  
+- Critical evaluation: Why this modelling approach, which notation, which stakeholders?
 
 ---
 
-## 9. Final Checklist
+## 11. Final Checklist
 
-- [ ] Visual Paradigm, VS Code installed/tested
+- [ ] Visual Paradigm & VS Code installed/tested
 - [ ] OU Library & O’Reilly platform access
 - [ ] Head First Design Patterns downloaded & skimmed
 - [ ] Forum intro drafted
-- [ ] Calendar mapped for deadlines
-- [ ] Note structure set up
+- [ ] Study/assignment deadline calendar set
+- [ ] Notes/log structure ready
 - [ ] OU study skills guides skimmed
 
 ---
@@ -135,7 +163,9 @@
 ## Optional Head Start
 
 - Read ch.1 of "Head First Design Patterns"
-- Draw a basic UML use case + class diagram for a simple system
-- Write a reflective note: "My main SE strengths, and goals for M813"
+- Draw a basic UML use case + class diagram for a simple system (e.g., small business/library/club)
+- Write a quick reflection: "My main SE strengths & goals for M813"
 
 ---
+
+*Prepared for OU M813 by Shab00. Last updated: [Your Date]. Integrates official module guide and transcript tutorial advice for top assessment and study performance.*
