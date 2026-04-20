@@ -150,13 +150,13 @@
 
 ## 11. Final Checklist
 
-- [ ] Visual Paradigm & VS Code installed/tested
-- [ ] OU Library & O’Reilly platform access
-- [ ] Head First Design Patterns downloaded & skimmed
-- [ ] Forum intro drafted
-- [ ] Study/assignment deadline calendar set
-- [ ] Notes/log structure ready
-- [ ] OU study skills guides skimmed
+- [x] Visual Paradigm & VS Code installed/tested
+- [x] OU Library & O’Reilly platform access
+- [x] Head First Design Patterns downloaded & skimmed
+- [x] Forum intro drafted
+- [x] Study/assignment deadline calendar set
+- [x] Notes/log structure ready
+- [x] OU study skills guides skimmed
 
 ---
 
@@ -167,5 +167,3 @@
 - Write a quick reflection: "My main SE strengths & goals for M813"
 
 ---
-
-*Prepared for OU M813 by Shab00. Last updated: [Your Date]. Integrates official module guide and transcript tutorial advice for top assessment and study performance.*
