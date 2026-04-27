@@ -1,0 +1,142 @@
+# M813 TMA 01 Preparation – Notes & Checklist
+
+---
+
+## 1. Key Tasks for TMA 01 Preparation
+
+- **Read TMA 01 thoroughly** – annotate requirements, deliverables, and deadlines.
+- Understand all artifacts required (diagrams, prose, stakeholder/process explanations).
+
+---
+
+## 2. Choosing Organisation & Problem Domain
+
+- **Select an organisation:**  
+  - Ideally your workplace, but any familiar or hypothetical organisation is allowed.
+  - Example domains: retail/catalogue/order, document management, rental/loan systems, booking systems, club/library management.
+- **Identify a business problem:**  
+  - Must be used by people, process and track data, and support real business processes.
+  - Examples: submission/review, member management, booking flows.
+- **Start small, expand if needed.**
+
+---
+
+## 3. Project Suitability Checklist
+
+- [ ] Does the problem involve people, software, business process?
+- [ ] Is complexity appropriate (not trivial, not overwhelming)?
+- [ ] Can you access stakeholders or simulate them for requirements?
+- [ ] Can you use/produce only anonymized, non-confidential data?
+- [ ] If unsure, post idea for tutor feedback ASAP.
+
+---
+
+## 4. Ethics & Legal Preparation
+
+- [ ] No real personal data (make data anonymous/fake if needed).
+- [ ] No vulnerable stakeholders (children, etc.).
+- [ ] Use roles/titles/pseudonyms instead of real names.
+- [ ] Get informed consent for any stakeholder involvement, even if informal.
+- [ ] Note risks & mitigations (health, confidentiality, data protection).
+
+---
+
+## 5. Forum Post Preparation (Synopsis)
+
+- Prepare a 300-word synopsis for the tutor forum.
+- Include these:
+  - Organisation overview
+  - Business problem/scenario
+  - Key processes
+  - Stakeholders/roles
+  - Justification for scope and fit to M813
+  - Note on ethics/anonymisation
+- Label with your name + PI number.
+- Wait for tutor approval before finalising answer.
+
+---
+
+## 6. Initial Reading & Contact Checklist
+
+- [ ] Read TMA 01 in detail
+- [ ] Annotate for required diagrams/artifacts
+- [ ] Identify info or stakeholder access needed
+- [ ] Plan contact/requests for permission if needed
+- [ ] List initial diagrams to produce (e.g., use case/context diagrams)
+
+---
+
+## 7. Critical Reflection & Planning
+
+- Plan for how to meet OU’s ethical standards.
+- Demonstrate analysis, synthesis, and reflection.
+- Document and justify your approach and choices throughout.
+
+---
+
+## 8. What to Avoid
+
+- [ ] Too simple (“todo list”, generic calculator, or without real user/process data context)
+- [ ] Anything with confidential/personal data, or involving vulnerable people
+- [ ] Any scenario you cannot realistically prototype, model or explain
+
+---
+
+## 9. Forum Post Template (Activity 2)
+
+```
+Subject: M813 TMA 01 – Organisation & Problem Synopsis – [Your Name][PI]
+
+**Organisation:**  
+[Brief description: real/hypothetical, size, sector, why chosen.]
+
+**Problem:**  
+[Clearly state the business process/problem that will be addressed.
+For example: "Manual equipment booking process leads to frequent double bookings and lost items."]
+
+**Key Processes:**  
+- Booking  
+- Approval  
+- Notification  
+- Reporting
+
+**Stakeholders:**  
+- Staff  
+- Managers  
+- Clients  
+- Admin Support
+
+**Justification:**  
+[Why it’s a good fit for M813 (people, data, business process interaction; manageable scope; allows you to model and prototype).]
+
+**Ethics:**  
+[State you’ll only use anonymized/fake data, avoid vulnerable groups, anonymize all roles.]
+```
+
+---
+
+## 10. TMA 01 Success Factors
+
+- Early, clear scope and tutor approval.
+- Signs of planning and ethical consideration.
+- Rich, manageable problem scenario.
+- Realistic stakeholders and data.
+- Reflection on rationale, risks, and next steps.
+
+---
+
+## 11. Next Steps
+
+- [ ] Post synopsis to your tutor forum (for approval/feedback).
+- [ ] Begin mapping process flows and rough diagrams.
+- [ ] Gather notes on processes and stakeholder needs (real or simulated).
+- [ ] Review your plan for logic, richness, and fit to M813 learning outcomes.
+
+---
+
+> You’re on track for distinction if you keep N.B.:
+> - Problem = not trivial, not overwhelming
+> - Model a real process for a real/realistic organisation
+> - Show planning, critical thinking, and ethical standards throughout
+
+---

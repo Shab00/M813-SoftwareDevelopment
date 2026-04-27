@@ -1,0 +1,4 @@
+1. Aradea, A., Supriana, I. & Surendro, K. (2020) Self-adaptive model based on goal-oriented requirements engineering for handling service variability. Journal of Information and Communication Technology, 19(2), pp. 225-250. https://doi.org/10.32890/jict2020.19.2.4
+
+Aradea et al. (2020) propose a self-adaptive requirements model using goal-oriented requirements engineering combined with MAPE-K loops, addressing service variability in modern, complex distributed systems. Their model supports both proactive and reactive adaptation, and is demonstrated with a configuration management case study. This aligns with M813’s emphasis on requirements traceability through to architecture and service delivery, and showcases a practical approach to runtime adaptation, a key concern in contemporary enterprise software.
+
