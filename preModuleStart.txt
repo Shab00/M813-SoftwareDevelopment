@@ -1,5 +1,52 @@
 # M813 Pre-Module Preparation Notes (Updated with Tutorial Insights)
 
+## Reflection: My SE Strengths & Goals for M813 (Distinction-Level)
+
+### About Me
+
+I am Bashaar, currently studying for an MSc in Computing with the OU. My background is in data science and machine learning, with solid industry and consulting experience delivering end-to-end real-world solutions. I am proficient in Python, C, and software tools from Vim to Docker and Git. My recent projects combine rigorous engineering with practical experimentation—from large-scale YouTube analytics and SaaS web app pipelines, to reproducible codebases, modelling, and rapid deployment.
+
+### My Strengths in Software Engineering
+
+- **Requirements Analysis & Problem Structuring:**  
+  As a consultant, I excel at analysing real-world problems, breaking down business objectives, and mapping requirements to actionable technical solutions. My experience managing client projects means I’m comfortable clarifying ambiguous goals and iterating solution scope.
+
+- **Rapid Prototyping & Full Lifecycle Delivery:**  
+  I have strong coding skills (Python, C) and routinely take projects from concept through prototype to minimum viable product (MVP) or report. I am experienced in continuous improvement and refactoring, aligning well with software development life cycle (SDLC) principles.
+
+- **Critical Thinking & Synthesis:**  
+  My MSc/consultancy work requires evaluating approaches, understanding stakeholder needs, and synthesising solutions across domains (data, ML, infrastructure). I regularly benchmark methods and justify technical decisions with evidence.
+
+- **Tooling & Workflow Mastery:**  
+  Advanced familiarity with Vim, Git, Docker, and reproducible workflows. I adopt best practices in version control, clean code, and configuration management.
+
+- **Reflective Practitioner:**  
+  I routinely document my learning, challenges, and decision rationale—whether for codebases, clients, or myself. I am comfortable articulating not only what I’ve built, but why, and what could be improved next time.
+
+### Goals for M813
+
+1. **Deepen Formal Software Engineering Foundations:**  
+   I want to strengthen my knowledge of formal SE techniques, especially requirements engineering, domain modelling, and advanced UML—bridging my hands-on background with academic best practices.
+
+2. **Master Object-Oriented Analysis & Design Patterns:**  
+   I aim to develop theoretical fluency and practical skill with OO principles and classic design patterns (e.g., from "Head First Design Patterns"), so I can architect robust, maintainable, and extensible systems in any language.
+
+3. **Strategic Application to Real Projects:**  
+   My goal is to apply module concepts to problems from my work, previous study (M816), or interesting domains like ecological data or SaaS—demonstrating not only technical implementation, but also system-level thinking and evaluation.
+
+4. **Sharpen Communication & Documentation:**  
+   I want to produce clear, professional artefacts: well-structured UML diagrams, explainable design and code, and academically rigorous reports. I aim to improve written synthesis, critical analysis, and reflection—skills crucial for distinction.
+
+5. **Ethical and Responsible SE Practice:**  
+   I am committed to upholding OU and professional standards for ethics and data protection, especially as I work with organisational data and (potentially) external stakeholders.
+
+6. **Achieve Distinction-Level Outcomes:**  
+   I intend to exceed minimum requirements by linking theory to practice, providing critical justifications for my design decisions, creatively applying SE methodologies, and reflecting on how these approaches benefit both my projects and future professional roles.
+
+---
+
+*My ultimate aim for M813 is to advance from a skilled practitioner to a well-rounded, reflective software engineer—combining technical proficiency, theoretical depth, and the communication skills required to lead, evaluate, and document software projects at the expert level.*
+
 ## 1. Module Orientation
 
 - **Length:** 6 months (~25 weeks, 300 hours study time)
