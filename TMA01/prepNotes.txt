@@ -22,22 +22,22 @@
 ---
 
 ## 3. Project Suitability Checklist
-
-- [ ] Does the problem involve people, software, business process?
-- [ ] Is complexity appropriate (not trivial, not overwhelming)?
-- [ ] Can you access stakeholders or simulate them for requirements?
-- [ ] Can you use/produce only anonymized, non-confidential data?
-- [ ] If unsure, post idea for tutor feedback ASAP.
+(a basic LLM-assisted workflow for routine, often repetitive, documentation tasks). This could become an information/support system for surveyors, with clear user roles, data handling, and notification features?
+- [x] Does the problem involve people, software, business process?
+- [x] Is complexity appropriate (not trivial, not overwhelming)?
+- [x] Can you access stakeholders or simulate them for requirements?
+- [x] Can you use/produce only anonymized, non-confidential data?
+- [x] If unsure, post idea for tutor feedback ASAP.
 
 ---
 
 ## 4. Ethics & Legal Preparation
 
-- [ ] No real personal data (make data anonymous/fake if needed).
-- [ ] No vulnerable stakeholders (children, etc.).
-- [ ] Use roles/titles/pseudonyms instead of real names.
-- [ ] Get informed consent for any stakeholder involvement, even if informal.
-- [ ] Note risks & mitigations (health, confidentiality, data protection).
+- [x] No real personal data (make data anonymous/fake if needed).
+- [x] No vulnerable stakeholders (children, etc.).
+- [x] Use roles/titles/pseudonyms instead of real names.
+- [x] Get informed consent for any stakeholder involvement, even if informal.
+- [x] Note risks & mitigations (health, confidentiality, data protection).
 
 ---
 
@@ -76,9 +76,9 @@
 
 ## 8. What to Avoid
 
-- [ ] Too simple (“todo list”, generic calculator, or without real user/process data context)
-- [ ] Anything with confidential/personal data, or involving vulnerable people
-- [ ] Any scenario you cannot realistically prototype, model or explain
+- [x] Too simple (“todo list”, generic calculator, or without real user/process data context)
+- [x] Anything with confidential/personal data, or involving vulnerable people
+- [x] Any scenario you cannot realistically prototype, model or explain
 
 ---
 

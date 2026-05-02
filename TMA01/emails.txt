@@ -1,0 +1,24 @@
+Organisation:
+My project is for a small private ecological surveying company. The organisation employs a team of ecological surveyors who regularly complete site surveys and generate standardised reports for regulatory compliance, land management, and biodiversity monitoring.
+Problem:
+
+The company’s paperwork is largely manual and repetitive. Surveyors spend significant time entering standardised information, reusing templates, and making minor edits for each project. Management is interested in exploring how a software system could streamline documentation by providing structured data capture, automated draft generation (using large language models to assemble standard sections and adapt narrative from templates), and workflow support for notifications and hand-off.
+
+Key Processes:
+Ecological survey data collection
+Drafting & editing site reports (LLM-assisted)
+Internal review & approval
+Notifying stakeholders of report status/completion
+Secure document storage & retrieval
+
+Stakeholders:
+Ecological Surveyors (primary users)
+Senior Ecologist/Reviewer
+Office/Admin staff
+Company Owner/Manager
+(Potentially) external client or regulator
+
+Justification:
+The project is a strong fit for M813: it focuses on human–software–business interaction, has real users with distinct roles, involves managing and tracking structured data, and supports process automation. There is clear scope for requirements analysis, modelling (use case, class, and process diagrams), prototyping (e.g., Java backend, report generator), and consideration of ethical and data-protection issues.
+
+All data will be fictional and anonymised.

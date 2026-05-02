@@ -1,0 +1,209 @@
+# M813 TMA 01 Bullet-Point Prep Guide  
+_Project: LLM-assisted Ecological Surveyor Report Support System_
+
+---
+
+## Part 1a
+
+### i. Organisational Problem Overview (200 words)
+
+- Organisation: Private ecological surveying company
+- Core problem: Surveyors spend excessive time on manual, repetitive, error-prone site survey documentation (for regulatory/client needs)
+- Current workflow: Word templates + ad hoc edits → inefficiency, bottlenecks, inconsistent report quality
+- **Significance:**  
+    - Delays project completion  
+    - Increases human error risk  
+    - Detracts from core survey work  
+    - Restricts scaling as business grows
+- Solution:  
+    - LLM-powered, role-driven documentation support system (draft generation, workflow, notifications)
+
+---
+
+### ii. Product Functionality & Quality Requirements (Unit 2, 2.3 template) (400 words)
+
+- **Functional requirements:**
+    - Surveyors log in and begin/continue ecological site reports
+    - System guides field data entry (species, site, weather, etc.)
+    - "Generate draft" calls LLM for first-pass report text (using regulatory template)
+    - Surveyors/reviewers edit, approve, revise, or finalise reports
+    - Automatic notification on report status changes (e.g., “Ready for review”)
+    - Reports securely archived and searchable by authorised users
+- **Quality requirements:**
+    - Usability (minimal training needed, clear UI)
+    - Performance (draft generation <1 minute)
+    - Reliability (robust saving, notification delivery)
+    - Security (role-based access, GDPR-compliant, no real personal data)
+    - Flexibility (easy update of templates or prompts)
+    - Traceability (all edits, reviews logged)
+
+---
+
+### iii. Stakeholder Summary & Input (200 words)
+
+- **Stakeholders:**
+    - Ecological Surveyors (report creators)
+    - Senior Ecologist/Reviewer (quality/compliance)
+    - Admin Staff (archiving, distribution)
+    - Company Manager/Owner (oversight)
+- **Contribution:**
+    - Surveyor interview: pain points, must-have workflows
+    - Reviewer: feedback on approval/reject flows, compliance risks
+    - Admin: need for automated notifications/archiving
+    - Manager: goals for team productivity and business risk
+
+---
+
+### iv. UML Use Case Diagram & Explanation (200 words)
+
+- **Actors:** Surveyor, Reviewer, Admin, Manager
+- **Sea-level Use Cases:**
+    - Create survey
+    - Generate draft
+    - Edit report
+    - Submit for review
+    - Review report
+    - Approve/reject report
+    - Send notification
+    - Archive/search reports
+- **Explanation & 3 requirements justified:**
+    - “Generate draft” targets main bottleneck (document creation)
+    - “Approve report” ensures QA and compliance
+    - “Send notification” maintains smooth workflow
+
+---
+
+### v. Use Case Ranking & Stakeholder Validation (200 words)
+
+- **Ranking:**
+    1. Create survey
+    2. Generate draft
+    3. Edit report
+    4. Submit for review
+    5. Review report
+    6. Approve/reject report
+    7. Send notification
+    8. Archive/search reports
+- **Start with:** Create survey, Generate draft, Review report
+- **Justification:** These form the backbone—confirmed as “must-have” in stakeholder interviews
+- **Validation:** Surveyors and reviewer prioritised ranking in interviews; manager okayed workflow choices
+
+---
+
+### vi. Three High-Ranking Use Cases (400 words total)
+
+- **Create site survey**
+    - Pre: Surveyor logged in
+    - Main: Enters basic site/visit info, saves (can update as workflow proceeds)
+    - Post: New survey record created
+
+- **Generate draft**
+    - Pre: Data captured, surveyor chooses “generate draft”
+    - Main: Uses LLM for report text, displays for edit
+    - Post: Draft available, notification sent
+
+- **Review report**
+    - Pre: Draft marked “Ready for review”
+    - Main: Reviewer reads report, approves/rejects/returns for rework
+    - Post: Status updated, surveyor notified
+
+---
+
+### vii. Four Key Business Processes + Rules (200 words)
+
+- Survey creation & data entry  
+    - Rule: All required fields checked before draft allowed
+- Draft report generation (LLM)  
+    - Rule: Current approved template, metadata completeness before generation
+- Review & approval  
+    - Rule: Reviewer must explicitly record decision; unresolved comments block approval
+- Notification & archive  
+    - Rule: Approval event triggers notification and archiving; only admin can archive
+
+---
+
+### viii. UML Activity Diagram (focus on core process) + Justification (100 words)
+
+- **Activity:** Create survey + generate draft
+- Surveyor logs in → input site data → “generate draft” → system checks completeness → LLM produces draft → display/edit draft
+- **Constraints:** Data checked (required fields), templates validated
+- **Justification:** Targeted main workflow for value and frequency. Activities confirmed by surveyor “walkthrough” feedback.
+
+---
+
+### ix. UML Class Diagram + Modelling Discussion & Glossary (400 words + glossary)
+
+- **Classes:** Survey, Surveyor, Report, Reviewer, Notification, Template, (LLM module/class)
+- **Associations:** Surveyor ↔ Survey (creates), Survey ↔ Report (1:1), Report ↔ Reviewer (reviewed by), Report ↔ Notification (triggers)
+- **Attributes:**  
+    - Survey (site, id, date)
+    - Report (text, status, lastEdit)
+    - Notification (recipient, type, timestamp), etc.
+- **Modelling decisions:**
+    1. Used association “Report” object to link Survey/Reviewer/workflow (vs just attributes)
+    2. Modelled Template as a class (adaptability for new report types)
+    3. Notification as own class (future expand for email/SMS)
+    4. LLM module as system class (alternative: could be service/utility class)
+- **Glossary:**
+    - Survey: Instance of field visit with context data
+    - Report: Document containing findings
+    - Template: Structure for automated reports
+    - Notification: System message/alert
+
+---
+
+### x. Two System Operation Specs + Contracts (300 words)
+
+- **generateDraft(surveyData: Survey): Report**
+    - Precondition: Survey exists, mandatory fields filled, valid template
+    - Postcondition: Draft Report generated, status=“Draft”, linked to survey
+- **approveReport(report: Report): boolean**
+    - Precondition: Report.status=“For review”; user is Reviewer
+    - Postcondition: Report.status=“Approved”; approval time logged; notification sent
+- **Contracts:** Operations ensure business rules, proper user/state, changelog updated
+
+---
+
+## Part 1b (Reflection, 300 words)
+
+- Stakeholder interviews/feedback were key for surfacing real requirements
+- Sea-level use cases and UML diagrams made big-picture communication easier
+- Some business rules only surfaced after initial models—need more iterative review early
+- Would automate requirements feedback gathering with surveys or forms next time
+- Should document scope assumptions at start for future teams
+
+---
+
+## Part 2: Model-Driven vs Agile for CI/CD (500 words)
+
+- **Agile:**  
+    - Short cycles, ongoing stakeholder feedback, tacit knowledge, just-in-time modelling.  
+    - Focuses on deliverable software, not models/documentation.
+- **Model-Driven:**  
+    - Models are first-class—you build and update models, generate code/tests from them.
+    - Good fit if formal workflow/process logic vital; risk of models getting out of sync.
+- **Processes:**  
+    - Agile: iterative/incremental (e.g., Scrum sprints, XP stories).
+    - Model-Driven: upfront structure, but also can work incrementally with right tools.
+- **Requirements & Modelling:**  
+    - Agile: emergent requirements, simple just-in-time artefacts.
+    - Model-Driven: requires accurate, managed models.
+- **CI/CD Implications:**  
+    - Agile: code-centric, fast shipping, easy with modern toolchains.
+    - Model-Driven: good fit for auto-build/test, but upfront investment, maintain model integrity.
+- **Your practice:**  
+    - For LLM report system: hybrid — model-driven for workflow, agile for LLM experiment/UX.
+- **References:** Keshav (2007), Agile Manifesto, OMG/MDA docs, ISO 25010, Unit 1 readings.
+
+---
+
+## General Points
+
+- Relate every answer to the ecological surveyor documentation project!
+- Use role-titles only, NO personal data.
+- Submit as single .docx following OU/Assessment guide.
+- Paste diagrams/figures as images, not as text.
+- Use Harvard referencing throughout.
+- Check all word limits before submission.
+
+---

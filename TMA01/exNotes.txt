@@ -1,0 +1,127 @@
+# M813 Unit 1 Notes – With Project Context
+
+---
+
+## 1. The Engineering Nature of Software Development
+
+- Engineering: _“The practice of organising the design and construction of any artifice which transforms the physical world around us to meet some recognised need”_ (Rogers, 1983).
+- **For my project:**  
+    - The recognised need: Surveyors spend significant time on repetitive documentation for regulatory compliance.  
+    - The “artifice”: A software system (with LLM-assist) transforming the process by reducing time spent on paperwork and improving report quality.
+    - Organising design/construction: I need a structured development process to deliver a fit-for-purpose system that integrates LLM with data workflows, roles, and notifications.
+
+---
+
+## 2. Key Activities in Software Development
+
+**Activities:**
+- **Analysis** – Understand the real reporting problems, surveyor roles, and regulatory needs.
+- **Design** – Define the LLM integration, user role permissions, and notification features.
+- **Implementation** – Build/report prototype system and LLM connection.
+- **Testing** – Ensure correct draft generation, role-based access, and notification delivery (mock test data).
+- **Deployment** – Installing the solution for real users (for a prototype, this could be user demonstrations).
+- **Maintenance/Evolution** – System will need updates as reporting needs or regulatory standards change (important for a real ecological consultancy).
+
+**Course Distinction:**
+- **Validation:** Are we solving the right problem (is the LLM-assist actually helpful for surveyors’ workflow)?
+- **Verification:** Did we build the system right (does it correctly generate drafts, manage users, and send notifications)?
+
+---
+
+## 3. Software Development Processes in Context
+
+- **Waterfall:**  
+    - Analysis → Design → Implementation → Testing → Deployment.
+    - _Not flexible if requirements (e.g., LLM capabilities or ecological reporting standards) are unclear or likely to evolve._
+- **Iterative & Incremental:**  
+    - _Build initial version (maybe simple draft generator), test with surveyors, gather feedback, then add workflow features, notifications, etc._
+- **Agile:**  
+    - _Frequent feedback from stakeholders (surveyors, admin staff); can rapidly adjust drafts, prompts, or data requirements._
+- **Model-driven development:**  
+    - Use UML/domain models to clarify requirements and drive system structure.
+- **Continuous integration/DevOps:**  
+    - (For future scaling)—would make regular prototype deployments and ensure new features don’t break core functionality.
+
+---
+
+## 4. Software Development is Hard—Risks in My Project
+
+- **Problem-related risk:**  
+    - Misunderstanding surveyors’ real challenges, regulatory edge-cases, or underestimating the complexity of automated language tasks.
+- **Solution-related risk:**  
+    - LLM integration might produce drafts that are not fit-for-purpose, or system features may not fit real workflows.
+- **Mitigation:**  
+    - Iterative development with regular surveyor/manager feedback; clearly document assumptions and use mock/fake data for rapid validation.
+
+---
+
+## 5. Software Quality in the Documentation Support System
+
+- **Key quality attributes for my project:**  
+    - **Functional suitability:** Reports and workflows match company/regulatory needs.
+    - **Performance efficiency:** Drafts are generated quickly enough to help surveyors, not slow them.
+    - **Usability:** Surveyors and admins can use the system with minimal training.
+    - **Flexibility:** Easy to update templates and LLM prompts as regulations change.
+    - **Testability:** Can reliably test with dummy surveys; LLM output checked by reviewers.
+    - **Reusability:** Core workflow pattern could be adapted to other report types (beyond ecology).
+
+- **Quality culture:**  
+    - It’s vital that management and surveyors value thorough, correct documentation and see the system as a help, not a hindrance—so get their input!
+
+---
+
+## 6. Modelling and UML (For My System)
+
+### Model Types
+- **Domain model:**  
+    - E.g., Entities: Surveyor, Site, Species Observed, Report, Reviewer, Notification.
+    - Models the real context of an ecological firm—who does what, and what data flows between them.
+- **Specification model:**  
+    - System-level behaviours—how the LLM-drafter gets triggered, who approves/rejects, what notifications are sent.
+- **Design model:**  
+    - Classes (e.g., `SurveyReport`, `User`, `DraftGenerator`, `NotificationService`), databases, and interactions.
+
+### UML Use
+- Will use UML to draw use case diagrams (e.g., “Create report draft,” “Review report,” “Send notification”), class diagrams (for system structure), and sequence diagrams (showing LLM/report workflow).
+
+---
+
+## 7. Object Orientation—Applied
+
+- **Why object orientation fits my project:**  
+    - Real-world entities (Surveys, Reports, Surveyors, Admins, etc.) can map cleanly to objects/classes.
+    - As the reporting process or document templates change, updating or extending relevant classes keeps the software maintainable.
+- **Encapsulation:**  
+    - E.g., the `SurveyReport` object exposes a “generateDraft” method (possibly powered by the LLM), but hides how the text is assembled underneath.
+- **Classes vs Objects:**
+    - Classes: reusable blueprints (`SurveyReport`, `User`, `Notification`).
+    - Objects: individual instances (e.g., a specific site survey report for “Site A, June 2024”).
+- **Collaboration:**  
+    - E.g., `Surveyor` creates a `SurveyReport`, calls `generateDraft()`, `Reviewer` checks/completes draft, `NotificationService` informs relevant users.
+
+---
+
+## 8. Risks, Quality and Stakeholders—Applied
+
+- **Stakeholders (per Hall & Rapanotti):**  
+    - Surveyors, Reviewers, Admin, Company Manager—all have perspectives, each must be included throughout requirements, modelling, and testing.
+- **Design & Assurance Spaces (Hall & Rapanotti):**
+    - Will balance system design (structure, LLM integration) with assurance (fit for business need, test cases, stakeholder acceptance).
+- **Problem/Solution Space:**
+    - Will iterate: each version checks if system solves the right problem (helpful workflow) and if it’s implemented right.
+
+---
+
+## Quick Glossary (with Project Examples)
+
+| Concept            | Meaning (in my project context)                                    |
+|--------------------|--------------------------------------------------------------------|
+| Engineering        | Structured approach to solve surveyors' documentation challenge    |
+| Requirement        | Surveyors want faster, easier, more accurate report generation     |
+| Risk               | LLM might generate incorrect/unclear content; system might not fit workflow |
+| Modelling          | UML use case diagram of "Create Draft," class diagram of `Report`/`User`  |
+| Object orientation | Classes for `SurveyReport`, `User`, methods for draft, review, notify      |
+| Stakeholder        | Surveyor, reviewer, admin, manager                                 |
+| Quality            | Accurate, timely, easy-to-use, flexible documentation workflow     |
+
+---
